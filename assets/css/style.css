@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box
+}
+body {
+    background: url('../images/background.jpg') repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    color:#777;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header {
+    background: white;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 30px;
+    height: 97px;
+
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+header h1 {
+    background: #4aaaa5;
+    color: white;
+    display: inline-block;
+    padding:30px;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+}
+nav {
+    width: 330px;
+    float: right;
+    margin-top: 25px;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #333333;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-right: 2px solid #4aaaa5;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+    padding-right: none;
+}
+
+#poptart {
+     background: white;
+     padding: 25px;
+     border: 2px solid #ccc;
+}
+
+.clearfix {
+    display: block;
+    clear:both;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#poptart h2 {
+    font-size: 24px;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-bottom: solid #ccc;
+
+}
+
+.inline-img {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px solid #777;
+}
